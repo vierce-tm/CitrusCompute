@@ -13,7 +13,7 @@ const lifestyleImages = [
 ]
 
 const socialPosts = [
-  { handle: "@creativekatie", text: "GiGi got me through my entire album production. No cap 🔥", likes: "2.4k" },
+  { handle: "@creativekatie", text: "CitrusCompute got me through my entire album production. No cap 🔥", likes: "2.4k" },
   { handle: "@fitnessjay", text: "Zero sugar but 100% energy. This is the one.", likes: "1.8k" },
   { handle: "@techbro_sam", text: "Finally an energy drink that doesn't taste like chemicals", likes: "956" },
 ]
@@ -90,7 +90,7 @@ export function LifestyleSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1], delay: 0.15 }}
             >
-              GIGI ON THE{" "}
+              CITRUSCOMPUTE ON THE{" "}
             </motion.span>
             <motion.span
               className="text-[#AFFF00] inline-block"

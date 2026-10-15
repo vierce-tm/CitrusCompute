@@ -8,7 +8,7 @@ const activations = [
   {
     icon: Sparkles,
     title: "Free Tasting Events",
-    description: "Experience GiGi at exclusive tasting events near you.",
+    description: "Experience CitrusCompute at exclusive tasting events near you.",
     cta: "Find Events",
   },
   {
@@ -26,7 +26,7 @@ const activations = [
   {
     icon: Calendar,
     title: "Event Organizers",
-    description: "Sponsor your next event with GiGi energy.",
+    description: "Sponsor your next event with CitrusCompute energy.",
     cta: "Sponsor Event",
   },
 ]
@@ -96,7 +96,7 @@ export function ActivationsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1], delay: 0.3 }}
             >
-              GIGI
+              CITRUSCOMPUTE
             </motion.span>
           </h2>
           <motion.p
@@ -106,7 +106,7 @@ export function ActivationsSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            From tasting events to corporate partnerships, bring GiGi into your world.
+            From tasting events to corporate partnerships, bring CitrusCompute into your world.
           </motion.p>
         </motion.div>
 

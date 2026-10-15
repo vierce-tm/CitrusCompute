@@ -154,7 +154,7 @@ export function Footer() {
           transition={{ delay: 0.3 }}
         >
           <p className="text-white/60 font-mono text-xs max-w-xl mx-auto leading-relaxed">
-            GiGi Energy is a better-for-you energy drink crafted with natural flavors, zero sugar, and a clean energy
+            CitrusCompute Energy is a better-for-you energy drink crafted with natural flavors, zero sugar, and a clean energy
             formula. Fuel your ambition without the crash.
           </p>
         </motion.div>
@@ -204,7 +204,7 @@ export function Footer() {
             </span>
           </motion.div>
 
-          <p className="text-white/40 font-mono text-xs">© 2026 GiGi Energy. All rights reserved.</p>
+          <p className="text-white/40 font-mono text-xs">© 2026 CitrusCompute Energy. All rights reserved.</p>
 
           <motion.p
             className="text-white/30 font-mono text-xs cursor-pointer"
@@ -237,7 +237,7 @@ export function Footer() {
         viewport={{ once: true }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        GiGi
+        CitrusCompute
       </motion.div>
     </footer>
   )

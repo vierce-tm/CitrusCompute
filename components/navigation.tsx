@@ -84,7 +84,7 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <span className={scrolled ? "text-white" : "text-[#121212]"}>Gi</span>
+            <span className={scrolled ? "text-white" : "text-[#121212]"}>Citrus</span>
             <motion.span
               className="text-[#AFFF00]"
               animate={{
@@ -94,7 +94,7 @@ export function Navigation() {
               }}
               transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
             >
-              Gi
+              Compute
             </motion.span>
           </motion.span>
         </Link>
