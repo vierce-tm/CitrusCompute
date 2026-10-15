@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform, useSpring } from "framer-motion"
 import { useRef } from "react"
 import Image from "next/image"
+import { BRAND_NAME } from "@/lib/brand"
 
 const springConfig = { stiffness: 100, damping: 30, restDelta: 0.001 }
 
@@ -230,7 +231,7 @@ export function HeroSection() {
               >
                 <Image
                   src="/images/drink2.png"
-                  alt="CitrusCompute - Lemon Lime Flavour"
+                  alt={`${BRAND_NAME} - Lemon Lime Flavour`}
                   width={350}
                   height={525}
                   className="relative z-10 drop-shadow-2xl"

@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 import { Sparkles, Dumbbell, Building2, Calendar } from "lucide-react"
+import { BRAND_NAME } from "@/lib/brand"
 
 const activations = [
   {
@@ -106,7 +107,7 @@ export function ActivationsSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            From tasting events to corporate partnerships, bring CitrusCompute into your world.
+            From tasting events to corporate partnerships, bring {BRAND_NAME} into your world.
           </motion.p>
         </motion.div>
 
